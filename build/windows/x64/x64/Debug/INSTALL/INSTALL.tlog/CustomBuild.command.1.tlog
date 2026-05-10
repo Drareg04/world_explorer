@@ -1,0 +1,10 @@
+^C:\USERS\GERAR\ONEDRIVE\DOCUMENTOS\RETARDED\WORLD_EXPLORER\BUILD\WINDOWS\X64\CMAKEFILES\ADF1E69E2989F9584B176209AB6E2358\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

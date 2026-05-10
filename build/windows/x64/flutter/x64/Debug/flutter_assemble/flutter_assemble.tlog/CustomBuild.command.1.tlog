@@ -1,0 +1,28 @@
+^C:\USERS\GERAR\ONEDRIVE\DOCUMENTOS\RETARDED\WORLD_EXPLORER\BUILD\WINDOWS\X64\CMAKEFILES\D8D23657B93016D760A1B33AACFCA771\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\gerar\develop\flutter PROJECT_DIR=C:\Users\gerar\OneDrive\Documentos\Retarded\world_explorer FLUTTER_ROOT=C:\Users\gerar\develop\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\gerar\OneDrive\Documentos\Retarded\world_explorer\windows\flutter\ephemeral PROJECT_DIR=C:\Users\gerar\OneDrive\Documentos\Retarded\world_explorer FLUTTER_TARGET=C:\Users\gerar\OneDrive\Documentos\Retarded\world_explorer\lib\main.dart DART_DEFINES=RkxVVFRFUl9WRVJTSU9OPTMuNDEuOQ==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049MDBiMGM5MWYwNg==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NDJkM2Q3NWE1Ng==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMS41 DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\gerar\OneDrive\Documentos\Retarded\world_explorer\.dart_tool\package_config.json C:/Users/gerar/develop/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GERAR\ONEDRIVE\DOCUMENTOS\RETARDED\WORLD_EXPLORER\BUILD\WINDOWS\X64\CMAKEFILES\3C5B86296DBE05C2B39C35EB6553D04A\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\GERAR\ONEDRIVE\DOCUMENTOS\RETARDED\WORLD_EXPLORER\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/gerar/OneDrive/Documentos/Retarded/world_explorer/windows -BC:/Users/gerar/OneDrive/Documentos/Retarded/world_explorer/build/windows/x64 --check-stamp-file C:/Users/gerar/OneDrive/Documentos/Retarded/world_explorer/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

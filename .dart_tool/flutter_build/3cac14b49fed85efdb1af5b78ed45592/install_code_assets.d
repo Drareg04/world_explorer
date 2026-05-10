@@ -1,0 +1,1 @@
+ C:\\Users\\gerar\\OneDrive\\Documentos\\Retarded\\world_explorer\\.dart_tool\\flutter_build\\3cac14b49fed85efdb1af5b78ed45592\\native_assets.json: 

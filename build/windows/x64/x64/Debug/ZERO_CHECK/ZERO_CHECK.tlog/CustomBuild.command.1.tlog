@@ -1,0 +1,10 @@
+^C:\USERS\GERAR\ONEDRIVE\DOCUMENTOS\RETARDED\WORLD_EXPLORER\BUILD\WINDOWS\X64\CMAKEFILES\ADF1E69E2989F9584B176209AB6E2358\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/gerar/OneDrive/Documentos/Retarded/world_explorer/windows -BC:/Users/gerar/OneDrive/Documentos/Retarded/world_explorer/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/gerar/OneDrive/Documentos/Retarded/world_explorer/build/windows/x64/world_explorer.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
